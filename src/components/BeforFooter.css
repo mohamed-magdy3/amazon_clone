@@ -1,0 +1,49 @@
+.BeforFooter{
+    background-color: #232f3e;
+    color: white;
+    width: 100%;
+    margin-top: 3rem;
+   
+
+}
+
+.BeforFooter-container{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+    padding: 3rem;
+}
+.beforFooter-ul{
+    display: grid;
+}
+.beforFooter-ul li{
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgb(207, 206, 206);
+    transition: 0.3s;
+}
+.beforFooter-ul li:hover{
+    color: white;
+    cursor: pointer;
+    /* text-decoration: underline !important; */
+    transform: translateX(5px);
+    
+    
+}
+
+.logo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    border-top: white 1px solid;
+    padding: 1.5rem;
+
+
+}
+.logo-section img{
+    width: 7rem;
+    padding-right: 1rem;
+}

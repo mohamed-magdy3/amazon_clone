@@ -1,0 +1,32 @@
+.FooterSignIn {
+  margin: auto;
+}
+.FooterSignIn-container {
+  border-top: 1pt solid rgb(164, 164, 164);
+  border-bottom: 1px solid rgb(164, 164, 164);
+  padding: 2rem;
+  text-align: center;
+}
+
+.FooterSignIn-container button{
+    background-color: #d77e09;
+    border: none;
+    color: white;
+    width: 15%;
+    margin: auto;
+    border: none;
+    font-size: 1.1rem;
+    padding: 5px 15px;
+    transition: 0.2s;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    transition: 0.6s;
+}
+
+.FooterSignIn-container button:hover{
+    background-color: #c27a1b;
+}
+.FooterSignIn-container span{
+    cursor: pointer;
+    color: rgb(85, 85, 255);
+}

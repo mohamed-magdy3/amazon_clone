@@ -1,0 +1,99 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Amazon Ember', sans-serif;
+  box-sizing: border-box;
+} */
+
+:root {
+  --NearBlack: #0f1111;
+  --gold: #febd69;
+  --NearBlack: #0f1111;
+  --gray: rgb(195, 195, 195);
+}
+body{
+  background-color:  var(--gray);
+}
+
+
+/* .header {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 0 1.5rem;
+  align-items: center;
+  height: 70px;
+  
+  background-color: var(--NearBlack);
+}
+.logo {
+  width: 9rem;
+  margin-top: 14px;
+  padding-left: 2rem;
+}
+
+.header-search {
+  display: flex;
+  justify-items: center;
+  
+  width: 50%;
+}
+.header-search input {
+  width: 100%;
+  font-size: 22px;
+  padding: 0 1rem;
+  outline: none;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  height: 47px;
+  background-color: white;
+}
+.search-icon {
+  font-size: 1.4rem;
+  align-items: center;
+  padding: 12px 15px;
+  border-radius: 0 10px 10px 0px;
+  background-color: var(--gold);
+  
+  cursor: pointer;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+}
+
+.cart {
+  margin-top: 5px;
+  width: 40px;
+}
+.header-option {
+  color: white;
+}
+.header-line1{
+    font-size: 13px;
+}
+.header-line2 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.header-Cart {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+.header-count-cart {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
+ */

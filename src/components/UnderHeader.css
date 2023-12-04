@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Amazon Ember", sans-serif;
+  box-sizing: border-box;
+}
+
+.UnderHeader {
+  display: flex;
+  color: white;
+  padding-left: 2.5rem;
+  background-color: #232f3e;
+
+  font-size: 1.1rem;
+}
+
+ul {
+  display: flex;
+  padding: 0.5rem;
+  padding-left: 0.2rem;
+  font-size: 1rem;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.UnderHeader li {
+  margin-left: 1rem;
+  cursor: pointer;
+  padding: 5px;
+}
+.UnderHeader li:hover {
+  outline: 1px solid white;
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all i {
+  font-size: 1.2rem;
+}
+.all span {
+  margin-left: 4px;
+}
+
+/* OFFCANVAS */
+
+.offCanvas-header {
+  display: flex;
+  background-color: #232f3e;
+  color: white;
+  padding: 10px 15px;
+  align-items: center;
+  font-size: 1.28rem;
+  font-weight: bold;
+}
+
+.offCanvas-header i {
+  padding-right: 10px;
+  margin-left: 20px;
+}
+
+.close-btn {
+  position: absolute;
+  left: 20px;
+  margin-left: 95%;
+  /* background-color: white;
+    color: rgb(255, 0, 0); */
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 0px 14px;
+}
+
+.list-offCanvas {
+  margin-left: 5%;
+  width: 90%;
+}
+.list-titles {
+  font-weight: bold;
+
+}
+.row-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: rgb(104, 104, 104);
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 10px;
+}
+.list-titles{
+font-size: 1rem;
+}
+.row-list:hover , .row-list:hover i{
+    background-color: #232f3e;
+    color: white !important;
+}
+
+.list-offcanvas-container {
+  border-bottom: black solid 1px;
+  padding-bottom: 1rem;
+}
+
+
+.marquee{
+  padding: 0.4rem;
+  background-color: yellow;
+}
+.marquee h6{
+  margin: auto;
+}

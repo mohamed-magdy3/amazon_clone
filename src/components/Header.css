@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+}
+.header {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 0 1.5rem;
+  align-items: center;
+  height: 70px;
+  background-color: var(--NearBlack);
+}
+.logo {
+  width: 9rem;
+  margin-top: 14px;
+  padding-left: 2rem;
+}
+.location {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  align-items: center;
+
+  
+}
+.location p {
+  margin: auto;
+}
+.location p:nth-child(1){
+  color: rgb(181, 181, 181);
+}
+.location p:nth-child(2){
+  font-size: 1rem;
+}
+.location:hover {
+  outline: 1px solid white;
+
+  cursor: pointer;
+}
+.location-icon {
+  margin: auto;
+  align-items: center;
+}
+
+.selection {
+  width: 3.2rem;
+  padding: 5px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+
+  background-color: aliceblue;
+}
+.selection:focus-visible,
+.selection:visited {
+  border: none;
+  outline: none;
+}
+.selection option {
+  padding: 10px;
+}
+.header-search {
+  display: flex;
+  width: 60% !important;
+
+  justify-items: center;
+
+  width: 50%;
+}
+.header-search input {
+  width: 100%;
+  font-size: 22px;
+  padding: 0 1rem;
+  outline: none;
+  border: none;
+  border-radius: 10px 0 10 0px;
+  height: 47px;
+  background-color: white;
+}
+.search-icon {
+  font-size: 1.4rem;
+  align-items: center;
+  padding: 12px 15px;
+  border-radius: 0 10px 10px 0px;
+  background-color: var(--gold);
+
+  cursor: pointer;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  width: 20%;
+}
+
+.cart {
+  margin-top: 5px;
+  width: 30px;
+}
+.header-option {
+  box-sizing: border-box;
+  color: white;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+.header-option:hover {
+  outline: 1px solid white;
+}
+
+.header-line1 {
+  font-size: 15px;
+  box-sizing: border-box;
+}
+.header-line2 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.header-Cart {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+.header-count-cart {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+
