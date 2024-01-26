@@ -1,5 +1,5 @@
 # Amazon clone
 ### [Live site] (https://mohamed-magdy3.github.io/amazon_clone)
 
-![Amazon clone](./src/images/amazon clone 2.PNG)
+![Amazon clone](./src/images/amazonclone.PNG)
 
